@@ -173,11 +173,9 @@ while True:
 
     takeBet(player_chips)
     showSome(playerHand,dealerHand)
-    i = 0
+
 #----------------------------------------------------------------------------------------------------------------------#
     while playing:
-        print(f"{i}")
-        i+=1
         hitOrStand(deck,playerHand)
         showSome(playerHand,dealerHand)
 
