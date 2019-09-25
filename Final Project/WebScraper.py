@@ -14,7 +14,7 @@ highList =[]
 lowList = []
 marketCap = []
 
-driver = webdriver.Chrome(executable_path=r'C:\Users\zains\Desktop\chromedriver.exe')
+
 
 r = requests.get('https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20130428&end=20190925')
 
