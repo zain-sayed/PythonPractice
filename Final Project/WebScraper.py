@@ -36,3 +36,5 @@ with open('coinMarketExample.csv','w',encoding='utf-8',newline='')as csvfile:
     for item in rows:
         links_writer.writerow(item)
 
+        ## Basic bitcoin scraper
+
